@@ -3,9 +3,6 @@ import { useQuery } from 'react-query'
 import { fetchUser } from './api/fetchUser'
 import { UserCard } from "./components/UserCard"
 
-
-
-
 function App() {
 
   const { isLoading, data: users } = useQuery({
@@ -17,7 +14,6 @@ function App() {
   }
 
   return (
-
     <Center m="4rem">
       <Grid templateColumns="repeat(1,1fr)" gap={1}>
         {
@@ -27,8 +23,6 @@ function App() {
         }
       </Grid>
     </Center>
-
-
   )
 }
 
