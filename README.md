@@ -1,4 +1,4 @@
-# users-app
+# Users-App
 
 - TypeScript
 - React Query
