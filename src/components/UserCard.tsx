@@ -1,6 +1,5 @@
 import React from "react";
 import moment from 'moment';
-import { useControllableProp, useControllableState } from '@chakra-ui/react'
 import {
   Flex,
   VStack,
@@ -20,12 +19,6 @@ type Props = {
 };
 
 export const UserCard = ({ user }: Props) => {
-  const [value, setValue] = React.useState(1)
-  const [internalValue, setInternalValue] = useControllableState({
-    value,
-    onChange: setValue,
-  })
-
   return (
     <Flex
       boxShadow="rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;"
