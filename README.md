@@ -1,6 +1,6 @@
 # Users-App
 
-Practical with typescript and react query
+##Practical with TypeScript,React Query and Chakra UI
 - TypeScript
 - React Query
 - Chakra UI 
